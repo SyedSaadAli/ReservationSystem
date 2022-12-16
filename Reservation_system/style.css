@@ -1,0 +1,487 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	
+}
+body
+{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(34, 34, 34) 0%, rgb(18, 16, 39) 0%, rgb(21, 25, 32) 100%, rgba(4,199,82,0.9248074229691877) 100%, rgba(255,0,0,1) 100%);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	font-family: Montserrat, sans-serif;
+	
+}
+.portcontainer{
+	z-index: -1;
+	position: fixed;
+	width:100%;
+	height: 100vh;
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(34, 34, 34) 0%, rgb(18, 16, 39) 0%, rgb(21, 25, 32) 100%, rgba(4,199,82,0.9248074229691877) 100%, rgba(255,0,0,1) 100%);
+	
+}
+.container{
+	
+	width: 90%;
+	padding-bottom: 2rem;
+	margin:  2rem 1rem;
+	margin-top: 4rem;
+	justify-self: center;
+	align-self: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.container img{
+	border-radius: 20px;
+	height: 450px;
+	width: 800px;
+	
+	/* margin-left: 5rem !; */
+	/* margin-top: -400px; */
+}
+.intro{
+	
+}
+.intro h1{
+	font-size: 60px;
+	color:white;
+	font-weight: 400;
+	
+}
+.intro p{
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	align-content: center;
+	font-size: 18px;
+	margin: 1rem 0;
+
+	line-height: 26px;
+	
+	
+}
+footer{
+	background-color: rgb(95, 30, 41);
+	width:100%;
+	
+	font-size: 20px;
+	
+	bottom: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height:8%;
+	color: rgb(255, 255, 255);
+
+	bottom: 0px;
+	text-align: center;
+	
+}
+footer p{
+	margin-top:20px;
+}
+.intro 
+li, a ,button{
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+	color: #E1E1E1;
+	transition: 0.6s;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+}
+.logo{
+	font-family:'Permanent Marker', cursive;
+	font-size: 28px;
+	font-weight: 500;
+	cursor: pointer;
+}
+li {
+	list-style: none;	
+	padding:10px 30px;
+	margin: 1px;
+	display: inline-block;
+	transition: 0.2s;
+	border-bottom: 0px solid white;
+}
+li a:hover{
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	padding: 1rem;
+	transform: scale(1.1);
+
+
+
+	
+}
+@keyframes lihover{
+    0% {
+      padding: 10px 30px;   
+	}
+	50%
+	{
+		padding: 10px 35px;
+	}
+	100%
+	{
+		padding: 10px 40px;
+	}
+}
+
+.contact{
+	padding: 10px 30px;
+	border-radius: 100px;
+	background-color:#ffffff;
+	color:#333;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	
+}.contact:hover{
+	padding: 10px 30px;
+	border-radius: 100px;
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+	
+}
+.seemore{
+	padding: 7px 20px;
+	background-color: #eeeeee;
+	color:#333;
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 1rem 2rem;
+	margin-top:10px; 
+	transition: 0.4s;
+	border-radius: 4px;
+}.seemore:hover{
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+	margin-top:10px; 
+}
+.rows{
+	margin-top: 2rem;
+	display: flex;
+	margin-bottom: 4rem;
+}
+.rowss{
+
+	display: flex;
+}
+.colm{
+	
+}
+.colm img{padding: 4px;
+width: 350px;
+height:450px;}
+
+.review{
+	flex: 25%;
+	padding: 50px;
+}
+
+
+.formc{
+	margin: 0 auto;
+	
+	width:35%;
+}
+@keyframes dronem{
+	 0% {margin-left: 0;}
+  10% {margin-left: 70%;}
+	20%{margin-left: 90%;
+	margin-top:-20%;}
+	50%{
+	margin-left: 10%;
+	margin-top:-20%;}
+	70%{
+		margin-left: 0%;
+	}
+}
+table{
+	border: 1px white double;
+	color: white;
+	
+	
+}
+td{
+	transition: 0.4s;
+	
+}
+th{
+	transition: 0.4s;
+}
+th:hover{
+	padding:10px;
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+}
+
+table td,th{
+	padding:10px 40px;
+	border: 1px solid white;
+}
+.bookbutton{
+	margin-top: 30px;
+	padding: 10px 20px;
+	background-color: white;
+	color: #333	;
+	border-radius: 5%;
+	transition:0.6s;
+}
+.bookbutton:hover{
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+}
+/*From Styling*/
+input, select {
+
+	width: 60% !important;
+	padding: 1rem 2rem;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid black;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+
+.formd input[type=submit] {
+  width: 40%;
+  background-color: #DFBB00;
+  color: navy;
+	font-weight: 700;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	transition: 0.5s;
+}
+
+.formd input[type=submit]:hover {
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+}
+
+div {
+  border-radius: 5px;
+  padding: 20px;
+}
+.servicecard{
+	background-color: transparent;
+
+}
+.d{
+	filter: blur(50px);
+}
+
+
+/*  NEW CSS */
+
+/* Portfolio Page */
+
+.portfolio_1 {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 4rem !important;
+}
+.portfolio_1 h1{
+	
+	color: #fff;
+	
+	font-size: 42px;
+	text-align: center;
+	font-weight: 62px !important;
+	margin-top: 4%;
+	
+}
+.porfolio_images{
+	margin-top: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.product_box {
+	background-color: #fff;
+	position: relative;
+	height: 500px;
+	border-radius: 0;
+	width: 350px;
+	overflow: hidden;
+	cursor: pointer;
+	transition: all .3s;	
+}
+.product_box h1{
+	position: absolute;
+	z-index: 1000;
+	bottom: 100px;
+	text-align: center;
+	width: 80%;
+	color: #202020;
+	background-color: #f7f5f5ab;
+	padding: 20px;
+	border-radius: 100px;
+	left: 40px;
+	font-size: 18px;
+	
+	
+}
+.product_box:hover {
+	transform:  scale(1.1);
+}
+.product_box a{
+	position: absolute;
+	z-index: 1000;
+	text-decoration: none;
+	background-color: #4a00ac;
+	padding: 15px;
+	bottom: 20px;
+	left: 90px;
+	width: 50%;
+	text-align: center;
+	border-radius: 100px;
+	font-size: 22px;
+	transition: all .2s;
+}
+.product_box img {
+	position: absolute;
+		height: 100%;
+	top: 0;
+	right: 0;
+	left: 0;
+	
+	width: 100%;
+	z-index: 1;
+
+	
+}
+.product_box a:hover {
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+}
+
+/* About page */
+
+.about_main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 0 3rem;
+	margin-bottom: 1rem;
+}
+.about_h1{
+	text-align: center;
+	font-size: 54px;
+	color: #fff;
+
+}
+.about_main div{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+li {
+	padding: 1rem;
+}
+
+/* Services */
+.services{
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-top: 4rem;
+
+}
+.service_card{
+	
+	color: #fff;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	border: 1px dashed #fff;
+	height: 380px;
+	width: 320px;
+}
+.service_card p {
+	
+}
+.service_card a {
+	text-decoration: none;
+	background-color: #fff;
+	padding: 1rem ;
+	font-weight: 600;
+	width: 280px;
+	color: #0a3de4;
+}
+.service_card a:hover {
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+}
+
+
+/* REVIEW PAGE  */
+.review_main{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+ .review_h1{
+	color: #fff;
+	font-size: 48px;
+	text-align: center;
+}
+.review_main div{
+	margin-top: 4rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	color: #fff;
+
+}
+.submit_contact{
+	color: rgb(247, 54, 86);
+	background-color: transparent;
+	border: 1.5px solid rgb(247, 54, 86);
+	padding: 1rem;
+	width: 60%;
+	border-radius: 4px;
+
+	margin-top: 1rem;
+	cursor: pointer;
+	transition: all .2s;
+}
+.submit_contact:hover{
+	background-color: rgb(247, 54, 86);
+	color: #E1E1E1;
+	transform: scale(1.1);
+}
